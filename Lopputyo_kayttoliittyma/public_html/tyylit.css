@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "tietokonefontti"; 
+    src: url("tietokonefontti.ttf"); 
+}
+
+@font-face {
+    font-family: "numerofontti"; 
+    src: url("numerofontti.ttf"); 
+}
+
+body {
+    background-image: url("defcon_tausta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    margin: auto;
+    left:30%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "tietokonefontti";
+    font-size: 30px;
+    color: violet;
+    text-shadow: 2px 2px black;
+}
+
+#pelialue {
+    width: 800px;
+    height: 680px;
+    border: solid 3px black;
+    margin: auto;
+    background-image: url("tausta.png");
+ 
+    
+}
+
+#pallurat {
+    float: right;
+    right: 11%;
+    position: relative;
+    bottom: -55%;
+}
+
+#oikein1, #oikein2, #oikein3, #oikein4, #oikein5, #oikein6 {
+    height: 30px;
+    width: 30px;
+    border: solid 3px black;
+    background-color: darkred;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+#aika {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    top: 16%;
+    right: 10%;
+    font-family: "numerofontti";
+    font-size: 60px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    
+}
+
+#koodikentta {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    font-family: "tietokonefontti";
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    
+}
+
+#vastauskentta {
+    text-align: center;
+    position: absolute;
+    bottom: 18%;
+    left: 14%;
+    clear: both;
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+    color: #009500;
+    font-family: "tietokonefontti";
+    font-size: 20px;
+}
+
+input[type=text] {
+    background-color: #009500;
+    height: 28px;
+    width: 191px;
+    font-family: "tietokonefontti";
+}
+
+input[type=submit] {
+    background-color: #009500;
+    height: 28px;
+    width: 191px;
+    font-family: "tietokonefontti";
+}
+
+#juoni {
+    border: solid 3px black;
+    background-color: #009500;
+    padding: 10px;
+    width: 200px;
+    float: left;
+    position: absolute;
+    right: -30%;   
+    font-family: "tietokonefontti";
+}
+
+#ohjeet {
+    position: absolute;
+    border: solid 3px black;
+    background-color: #009500;
+    padding: 10px;
+    width: 200px;
+    float: right;
+    right: -30%;
+    top: 50%;
+    font-family: "tietokonefontti";
+}
+
+#naytto, #playeri {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    bottom: 53.5%;
+    right: 31.3%;
+}
+
+#uudestaan, #asetukset, #paavalikko {
+    background-color: #009500;
+    height: 28px;
+    width: 200px;
+    font-family: "tietokonefontti";
+}
+
+
+
+
